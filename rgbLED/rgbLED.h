@@ -19,7 +19,7 @@ public:
 		pinMode(_pinblue, OUTPUT);
 	}
 
-	void on(char colour, unsigned int intensity) {
+	void flicker(char colour, unsigned int intensity) {
 		switch (colour) {
 			case 'r':
 				SoftPWMSetPercent(_pinred, intensity);
@@ -33,7 +33,7 @@ public:
 		}
 	}
 
-	void off(char colour) {
+	void flickeroff(char colour) {
 		switch (colour) {
 			case 'r':
 				SoftPWMSetPercent(_pinred, 0);
@@ -47,7 +47,7 @@ public:
 		}
 	}
 
-	void singleon(char colour) {
+	void on(char colour) {
 		switch (colour) {
 			case 'r':
 				digitalWrite(_pinred, HIGH);
@@ -61,7 +61,7 @@ public:
 		}
 	}
 
-	void singleoff(char colour) {
+	void off(char colour) {
 		switch (colour) {
 			case 'r':
 				digitalWrite(_pinred, LOW);
