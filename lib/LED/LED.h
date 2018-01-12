@@ -17,12 +17,10 @@ public:
 	void flicker(unsigned int intensity) {
 		SoftPWMSetPercent(_pin, intensity);
 		}
-	}
 
 	void on() {
 		digitalWrite(_pin, HIGH);
 		}
-	}
 
 	void off() {
 		digitalWrite(_pin, LOW);
