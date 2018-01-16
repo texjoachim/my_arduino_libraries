@@ -1,5 +1,6 @@
 // LED.h
 
+#include <Arduino.h>
 #include <SoftPWM.h>
 
 // our LED class

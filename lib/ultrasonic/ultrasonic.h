@@ -1,5 +1,7 @@
 // ultrasonic.h
 
+#include <Arduino.h>
+
 // our ultrasonic sensor class
 
 class ultrasonicsensor {

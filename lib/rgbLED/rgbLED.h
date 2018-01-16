@@ -1,5 +1,6 @@
 // rgbLED.h
 
+#include <Arduino.h>
 #include <SoftPWM.h>
 
 // our rgb LED class

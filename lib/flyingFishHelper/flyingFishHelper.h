@@ -11,6 +11,8 @@
 // digitalread 
 // analogread 
 
+#include <Arduino.h>
+
 class flyingFish {
 private:
     unsigned int _pinDigital;

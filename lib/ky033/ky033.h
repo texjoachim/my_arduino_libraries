@@ -1,5 +1,7 @@
 // ky033.h
 
+#include <Arduino.h>
+
 // our ky033 class
 class ky033 {
 private:
