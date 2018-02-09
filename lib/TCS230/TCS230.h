@@ -75,4 +75,15 @@ public:
 	  	return _frequency;
 	}
 
+	void readrgb(unsigned int &red, unsigned int &green, unsigned int &blue) {
+		red = readred();
+		delay(100);
+		green = readgreen();
+		delay(100);
+		blue = readblue();
+		delay(100);
+		red = map(red, 25, 72,255,0); // map the readings to rgb
+		green = map(green, 30, 90,255,0); // might be necessary to adjust
+		blue = map(blue, 25,72,255,0); // the values	
+	}
 };
