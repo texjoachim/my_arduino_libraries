@@ -10,5 +10,6 @@ These are the libraries I use in my projects. Nothing special, just:
 * motor.h - to control DC motors
 * TCS230 - for colour sensors (needs testing)
 * flame - for flame/fire sensors
+* PIR - for PIR motion sensors
 
 It's easier to have them in one place when I want/need to change them.
